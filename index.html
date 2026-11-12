@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#176b50">
+<title>My Action Plan: Save Earth, Choose Earth</title>
+<style>
+:root{--green:#176b50;--green2:#24845f;--blue:#247b91;--earth:#9a7048;--ink:#20352d;--muted:#64756e;--bg:#f3f7f3;--card:#fff;--line:#dce8df;--soft:#e8f4ec;--shadow:0 8px 28px rgba(28,70,49,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}button,textarea,select{font:inherit}button{cursor:pointer;min-height:44px;border:0;border-radius:12px;padding:10px 16px;font-weight:700;transition:.2s}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #78b9e0;outline-offset:2px}.wrap{width:min(1120px,calc(100% - 32px));margin:auto}.topbar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 0}.brand{font-weight:800;color:var(--green);letter-spacing:.02em}.language{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:.9rem}.language select{border:1px solid var(--line);border-radius:10px;padding:9px 30px 9px 10px;background:white;color:var(--ink)}.hero{position:relative;overflow:hidden;border-radius:24px;padding:clamp(26px,5vw,54px);color:white;background:linear-gradient(120deg,rgba(12,74,53,.96),rgba(29,116,91,.88)),radial-gradient(circle at 85% 15%,#b2d5a4,transparent 30%);box-shadow:var(--shadow)}.hero:after{content:"🌿";position:absolute;right:5%;bottom:-35px;font-size:clamp(90px,18vw,190px);opacity:.18;transform:rotate(-18deg);pointer-events:none}.eyebrow{text-transform:uppercase;letter-spacing:.13em;font-size:.76rem;font-weight:800;opacity:.85}.hero h1{font-size:clamp(2rem,5vw,3.35rem);line-height:1.08;max-width:760px;margin:10px 0 16px}.hero p{max-width:760px;margin:0;color:#e5f4e9;font-size:1.05rem}.hero .closing{margin-top:22px;font-weight:800;color:#fff}.section{margin:28px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:14px}.section h2{font-size:clamp(1.35rem,3vw,1.8rem);margin:0;color:var(--green)}.section-intro{margin:5px 0 0;color:var(--muted)}.dashboard{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat,.panel,.action-card,.impact-card{background:var(--card);border:1px solid var(--line);border-radius:17px;box-shadow:var(--shadow)}.stat{padding:17px}.stat .label{color:var(--muted);font-size:.86rem}.stat .value{font-size:1.8rem;font-weight:850;color:var(--green);margin-top:2px}.progress-panel{margin-top:13px;padding:18px 20px;background:white;border:1px solid var(--line);border-radius:17px}.progress-top{display:flex;justify-content:space-between;gap:10px;font-weight:750}.track{height:13px;background:#e6eee8;border-radius:99px;overflow:hidden;margin-top:11px}.fill{height:100%;width:0;background:linear-gradient(90deg,var(--green2),#75b88a);border-radius:99px;transition:width .3s}.toolbar{display:flex;flex-wrap:wrap;gap:9px;margin:15px 0}.btn-primary{background:var(--green);color:white}.btn-primary:hover{background:#10543d}.btn-secondary{background:#e6f2e9;color:var(--green)}.btn-outline{background:white;color:var(--green);border:1px solid #b9d2c1}.btn-danger{background:#fff0ed;color:#a53d2e}.action-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.action-card{padding:18px;display:flex;gap:13px;align-items:flex-start;transition:border-color .2s,background .2s,transform .2s}.action-card:hover{transform:translateY(-2px)}.action-card.done{background:#f0f8f1;border-color:#8fc6a0}.check-wrap{flex:0 0 28px;padding-top:2px}.action-check{width:23px;height:23px;accent-color:var(--green);cursor:pointer}.action-content{min-width:0;flex:1}.action-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}.number{font-size:.78rem;font-weight:800;color:var(--green);background:#e6f2e9;border-radius:7px;padding:3px 7px}.category{font-size:.75rem;color:#52685d;background:#f0f3ee;border-radius:99px;padding:4px 9px}.action-card h3{margin:0 0 7px;font-size:1.05rem;line-height:1.35}.action-card p{margin:0;color:var(--muted);font-size:.93rem}.impact-note{margin-top:10px;padding-top:9px;border-top:1px dashed var(--line);font-size:.88rem;color:#456d56}.impact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}.impact-card{padding:17px}.impact-card h3{font-size:1rem;margin:0 0 7px}.impact-percent{font-size:1.35rem;font-weight:850;color:var(--green)}.impact-card .track{height:9px;margin-top:8px}.impact-card small{display:block;color:var(--muted);margin-top:7px}.panel{padding:20px}.summary-text{margin:0;color:#40564a}.selected-list{margin:12px 0 0;padding-left:22px;color:#52685d}.empty{padding:16px;border-radius:12px;background:#f2f7f2;color:var(--muted)}.learning-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}.learning-card{padding:18px;border-radius:16px;background:linear-gradient(145deg,#fff,#f0f7f1);border:1px solid var(--line)}.learning-card .emoji{font-size:1.5rem}.learning-card h3{margin:6px 0;font-size:1.05rem;color:var(--green)}.learning-card p{margin:0;color:var(--muted);font-size:.93rem}.reflection textarea{width:100%;min-height:125px;resize:vertical;border:1px solid #cbdacf;border-radius:12px;padding:13px;background:#fcfefc;color:var(--ink)}.reflection-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:11px}.preview{margin-top:15px;border-left:4px solid var(--green2);background:#f0f7f1;padding:14px 16px;border-radius:0 12px 12px 0;white-space:pre-wrap;overflow-wrap:anywhere}.preview:empty{display:none}.toast{position:fixed;bottom:20px;left:50%;transform:translate(-50%,20px);background:#173f30;color:white;padding:12px 18px;border-radius:12px;box-shadow:0 8px 28px #0002;opacity:0;pointer-events:none;transition:.25s;z-index:20;max-width:calc(100% - 30px);text-align:center}.toast.show{opacity:1;transform:translate(-50%,0)}footer{text-align:center;color:var(--muted);padding:28px 0 36px}footer strong{color:var(--green)}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:760px){.dashboard{grid-template-columns:repeat(2,1fr)}.action-list{grid-template-columns:1fr}.impact-grid,.learning-grid{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}.hero:after{right:-10px;bottom:-25px}.topbar{align-items:flex-start}.brand{max-width:55%}}
+@media(max-width:420px){.wrap{width:min(100% - 22px,1120px)}.topbar{gap:8px}.language{font-size:.82rem}.language select{max-width:115px}.stat{padding:13px}.stat .value{font-size:1.5rem}.hero{border-radius:18px}.action-card{padding:15px}.toolbar button{flex:1 1 calc(50% - 8px)}}
+@media print{body{background:#fff;color:#111;font-size:11pt}.wrap{width:100%;max-width:none}.topbar,.toolbar,.language,.toast,.reflection-actions{display:none!important}.hero{background:#fff!important;color:#111;box-shadow:none;border:1px solid #bbb;padding:18px}.hero p,.hero .closing{color:#222}.hero:after{display:none}.section{break-inside:avoid;margin:18px 0}.stat,.panel,.action-card,.impact-card,.progress-panel,.learning-card{box-shadow:none;border:1px solid #bbb;break-inside:avoid}.dashboard{grid-template-columns:repeat(4,1fr)}.action-list{grid-template-columns:repeat(2,1fr)}.impact-grid,.learning-grid{grid-template-columns:repeat(3,1fr)}.action-check{appearance:none;border:1px solid #555;border-radius:3px}.action-card.done .action-check:after{content:"✓";display:block;text-align:center}.fill{background:#777!important}.reflection textarea{display:none}footer{padding:10px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="topbar">
+    <div class="brand">🌱 ECO ACTION PLAN</div>
+    <label class="language"><span id="languageLabel">Language</span>
+      <select id="languageSelect" aria-label="Choose language">
+        <option value="en">English</option><option value="tl">Filipino</option><option value="bi">Bikol</option>
+      </select>
+    </label>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow" id="eyebrow">LEARN • ACT • PROTECT</div>
+      <h1 id="pageTitle">My Action Plan: Save Earth, Choose Earth</h1>
+      <p id="objective"></p>
+      <p class="closing" id="closing"></p>
+    </section>
+
+    <section class="section" aria-labelledby="progressHeading">
+      <div class="section-head"><div><h2 id="progressHeading">My Progress</h2><p class="section-intro" id="progressIntro">Every small action is a step toward a healthier planet.</p></div></div>
+      <div class="dashboard">
+        <div class="stat"><div class="label" id="totalLabel">Total Actions</div><div class="value" id="totalCount">5</div></div>
+        <div class="stat"><div class="label" id="completedLabel">Completed</div><div class="value" id="completedCount">0</div></div>
+        <div class="stat"><div class="label" id="remainingLabel">Remaining</div><div class="value" id="remainingCount">5</div></div>
+        <div class="stat"><div class="label" id="percentLabel">Completion</div><div class="value" id="percentCount">0%</div></div>
+      </div>
+      <div class="progress-panel">
+        <div class="progress-top"><span id="progressCount">Completed: 0 / 5 Actions</span><span id="progressPercent">0%</span></div>
+        <div class="track" role="progressbar" aria-label="Checklist completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="mainProgress"><div class="fill" id="mainFill"></div></div>
+        <p id="completionMessage" class="section-intro" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><div><h2 id="checklistHeading">My Action Checklist</h2><p class="section-intro" id="checklistIntro">Check each action when you have completed it.</p></div></div>
+      <div class="toolbar">
+        <button class="btn-primary" id="selectAll">Select All</button>
+        <button class="btn-secondary" id="clearAll">Clear All</button>
+        <button class="btn-outline" id="resetBtn">Reset Checklist</button>
+        <button class="btn-outline" id="printBtn">Print My Action Plan</button>
+      </div>
+      <div class="action-list" id="actionList"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><div><h2 id="impactHeading">My Environmental Impact</h2><p class="section-intro" id="impactIntro">See how your selected actions connect to environmental protection.</p></div></div>
+      <div class="panel">
+        <p class="summary-text" id="impactSummary" aria-live="polite"></p>
+        <ul class="selected-list" id="selectedActions"></ul>
+      </div>
+      <div class="section-head" style="margin-top:18px"><div><h2 id="coverageHeading">Impact Category Coverage</h2><p class="section-intro" id="coverageNote">These percentages show the share of relevant actions you selected—not measured environmental improvement.</p></div></div>
+      <div class="impact-grid" id="impactCategories"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><div><h2 id="learningHeading">Philippine Ecosystems: Learn and Protect</h2><p class="section-intro" id="learningIntro">Understand the environmental challenges our actions can help address.</p></div></div>
+      <div class="learning-grid" id="learningCards"></div>
+    </section>
+
+    <section class="section reflection">
+      <div class="section-head"><div><h2 id="reflectionHeading">My Environmental Commitment</h2><p class="section-intro" id="reflectionPrompt"></p></div></div>
+      <div class="panel">
+        <label class="sr-only" for="reflectionText" id="reflectionLabel">Write your reflection</label>
+        <textarea id="reflectionText" placeholder="Write your answer here..."></textarea>
+        <div class="reflection-actions"><button class="btn-primary" id="saveReflection">Save Reflection</button></div>
+        <div class="preview" id="reflectionPreview" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+  <footer id="footerMessage"><strong>Save Earth, Choose Earth.</strong> Small actions, when done consistently, can make a big difference!</footer>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* ============================================================
+   REUSABLE ACTION PLAN DATA
+   Replace this object to build a different lesson/action plan.
+   Each item may have its own category, impact text and tags.
+   ============================================================ */
+const ACTION_PLAN = {
+  id: "save-earth-choose-earth-v1",
+  title: "My Action Plan: Save Earth, Choose Earth",
+  objective: "Encourage learners to practice simple but meaningful environmental actions that promote proper waste management, resource conservation, reduced plastic consumption, and protection of native trees.",
+  reflectionQuestion: "What environmental action can you start practicing today, and how can you encourage your family and community to do the same?",
+  closing: "Save Earth, Choose Earth. Small actions, when done consistently, can make a big difference!",
+  actions: [
+    {title:"Practice Proper Waste Segregation",category:"Waste Management",description:"Separate biodegradable, recyclable, residual, and hazardous waste into their appropriate bins to help reduce pollution and maintain a clean environment.",impact:"Correct sorting helps reduce pollution and supports responsible waste handling.",tags:["pollution"]},
+    {title:"Follow the 3 Rs: Reduce, Reuse, and Recycle",category:"Sustainable Consumption",description:"Reduce unnecessary consumption, reuse materials whenever possible, and recycle items to minimize the amount of waste sent to landfills.",impact:"Using materials wisely conserves resources and reduces the waste that reaches landfills.",tags:["pollution","forest"]},
+    {title:"Conserve Energy and Water at Home",category:"Energy and Water Conservation",description:"Turn off lights, appliances, and faucets when they are not in use. Practice responsible consumption of electricity and water every day.",impact:"Conserving electricity and water helps protect essential natural resources.",tags:["forest"]},
+    {title:"Reduce Plastic Waste",category:"Plastic Pollution Prevention",description:"Avoid single-use plastics by bringing reusable bags, bottles, and containers. Choose environmentally friendly alternatives whenever possible.",impact:"Reducing disposable plastic helps prevent pollution that can harm rivers, seas, and wildlife.",tags:["pollution","biodiversity"]},
+    {title:"Find Spaces to Plant Native Tree Species",category:"Biodiversity and Tree Planting",description:"Identify suitable areas where native trees can be planted. Help plant and care for these trees to support biodiversity and protect the environment.",impact:"Native trees provide habitat, support biodiversity, and help maintain healthy ecosystems.",tags:["forest","biodiversity"]}
+  ],
+  impactCategories: [
+    {id:"forest",name:"Forest Protection",description:"Relevant actions selected"},
+    {id:"pollution",name:"Pollution Reduction",description:"Relevant actions selected"},
+    {id:"biodiversity",name:"Biodiversity Protection",description:"Relevant actions selected"}
+  ],
+  learning: [
+    {icon:"🌳",title:"Deforestation",text:"Deforestation is the clearing of forests. It can destroy habitats, increase erosion, and threaten native wildlife. Protecting and planting suitable native trees can help support tropical rainforests and other forest ecosystems."},
+    {icon:"💧",title:"Pollution",text:"Pollution happens when harmful waste or substances enter the environment. Plastic and poorly managed waste can travel through rivers and lakes to mangroves and coral reefs, harming wildlife and people."},
+    {icon:"🐾",title:"Invasive Species",text:"Invasive species are organisms introduced to places where they do not naturally belong and that can spread in harmful ways. They may compete with native plants and animals. Protecting native habitats and choosing native plants can help support local biodiversity."}
+  ]
+};
+
+const TRANSLATIONS = {
+en:{
+ language:"Language",eyebrow:"LEARN • ACT • PROTECT",progress:"My Progress",progressIntro:"Every small action is a step toward a healthier planet.",total:"Total Actions",completed:"Completed",remaining:"Remaining",completion:"Completion",count:(a,b)=>`Completed: ${a} / ${b} Actions`,checklist:"My Action Checklist",checklistIntro:"Check each action when you have completed it.",selectAll:"Select All",clearAll:"Clear All",reset:"Reset Checklist",print:"Print My Action Plan",impact:"My Environmental Impact",impactIntro:"See how your selected actions connect to environmental protection.",coverage:"Impact Category Coverage",coverageNote:"These percentages show the share of relevant actions you selected—not measured environmental improvement.",learning:"Philippine Ecosystems: Learn and Protect",learningIntro:"Understand the environmental challenges our actions can help address.",reflection:"My Environmental Commitment",write:"Write your reflection",placeholder:"Write your answer here...",save:"Save Reflection",noActions:"You have not selected an action yet. Choose one small step to begin making a positive difference.",impactStart:"By choosing",impactEnd:"you are taking practical steps to support the environment. These actions can help address",and:"and",allDone:"Amazing work! You completed every action. Keep these habits going!",keepGoing:"Great start! Keep going—each action makes a difference.",remainingMsg:n=>`${n} action(s) left. You can do it!`,saved:"Your reflection has been saved.",resetConfirm:"Are you sure you want to reset all checklist progress and your saved reflection?",resetDone:"Your checklist and reflection have been reset.",selected:"Your completed actions:",coverageEmpty:"No relevant actions selected yet.",coverageText:(n,total)=>`${n} of ${total} relevant actions selected`,footer:"Small actions, when done consistently, can make a big difference!",reflectionSaved:"Saved reflection"
+},
+tl:{
+ language:"Wika",eyebrow:"MATUTO • KUMILOS • MAGPROTEKTA",progress:"Aking Pag-unlad",progressIntro:"Ang bawat maliit na kilos ay hakbang tungo sa mas malusog na planeta.",total:"Kabuuang Gawain",completed:"Natapos",remaining:"Natitira",completion:"Pagkumpleto",count:(a,b)=>`Natapos: ${a} / ${b} Gawain`,checklist:"Aking Talaan ng mga Gawain",checklistIntro:"Lagyan ng tsek ang bawat gawaing natapos mo.",selectAll:"Piliin Lahat",clearAll:"Alisin ang Lahat",reset:"I-reset ang Talaan",print:"I-print ang Aking Plano",impact:"Aking Epekto sa Kapaligiran",impactIntro:"Tingnan kung paano nakatutulong sa kalikasan ang mga pinili mong gawain.",coverage:"Saklaw ng mga Kategorya ng Epekto",coverageNote:"Ipinapakita ng mga porsiyentong ito ang bahagdan ng mga kaugnay na gawaing napili mo—hindi ang aktuwal na nasukat na pagbuti ng kapaligiran.",learning:"Mga Ekosistema sa Pilipinas: Alamin at Pangalagaan",learningIntro:"Unawain ang mga suliraning pangkapaligiran na maaaring matugunan ng ating mga gawain.",reflection:"Aking Pangakong Pangkapaligiran",write:"Isulat ang iyong pagninilay",placeholder:"Isulat dito ang iyong sagot...",save:"I-save ang Pagninilay",noActions:"Wala ka pang napipiling gawain. Magsimula sa isang maliit na hakbang upang makatulong sa kalikasan.",impactStart:"Sa pagpili sa",impactEnd:"gumagawa ka ng mga konkretong hakbang upang pangalagaan ang kapaligiran. Nakatutulong ang mga ito upang matugunan ang",and:"at",allDone:"Napakahusay! Natapos mo ang lahat ng gawain. Ipagpatuloy ang mabubuting gawi!",keepGoing:"Magandang simula! Ipagpatuloy—mahalaga ang bawat gawain.",remainingMsg:n=>`${n} gawain pa ang natitira. Kaya mo iyan!`,saved:"Na-save na ang iyong pagninilay.",resetConfirm:"Sigurado ka bang i-reset ang lahat ng progreso at naka-save na pagninilay?",resetDone:"Na-reset na ang talaan at pagninilay mo.",selected:"Mga natapos mong gawain:",coverageEmpty:"Wala pang napipiling kaugnay na gawain.",coverageText:(n,total)=>`${n} sa ${total} kaugnay na gawain ang napili`,footer:"Ang maliliit na gawain, kapag palagiang ginagawa, ay may malaking maitutulong!",reflectionSaved:"Naka-save na pagninilay"
+},
+bi:{
+ language:"Lengguwahe",eyebrow:"MAG-ARAM • MAG-AKTO • MAGPROTEHER",progress:"An Akong Pag-uswag",progressIntro:"An kada sadit na aksyon sarong lakdang pasiring sa mas marhay na planeta.",total:"Gabos na Aksyon",completed:"Natapos",remaining:"Nabilin",completion:"Pagkumpleto",count:(a,b)=>`Natapos: ${a} / ${b} na Aksyon`,checklist:"An Akong Listahan nin Aksyon",checklistIntro:"Markahi an checkbox kun natapos mo na an aksyon.",selectAll:"Pilia Gabos",clearAll:"Haleon Gabos",reset:"Ibalik sa Gikanan",print:"I-print an Akong Plano",impact:"An Epekto kan Akong mga Aksyon sa Kalikasan",impactIntro:"Hilingon kun paano nakakatabang sa kalikasan an mga pinili mong aksyon.",coverage:"Sakop kan mga Kategorya kan Epekto",coverageNote:"An mga porsyento na ini nagpapahiling kan parte kan mga kaugnay na aksyon na pinili mo—bako ini aktuwal na sukol kan pag-uswag kan kalikasan.",learning:"Mga Ekosistema sa Pilipinas: Aramon asin Proteheran",learningIntro:"Aramon an mga problema sa kalikasan na matatawan nin tabang kan satong mga aksyon.",reflection:"An Akong Panuga para sa Kalikasan",write:"Isurat an saimong repleksyon",placeholder:"Isurat digdi an saimong simbag...",save:"Itagama an Repleksyon",noActions:"Dai ka pa nakakapili nin aksyon. Magpoon sa sarong sadit na lakdang para makatabang sa kalikasan.",impactStart:"Paagi sa pagpili sa",impactEnd:"nag-aakto ka para proteheran an kalikasan. Nakakatabang an mga aksyon na ini na atubangon an",and:"asin",allDone:"Marhay na marhay! Natapos mo an gabos na aksyon. Padagoson an marhay na mga gawi!",keepGoing:"Marhay na pagpoon! Padagos—mahalaga an kada aksyon.",remainingMsg:n=>`${n} pang aksyon an nabilin. Kaya mo ini!`,saved:"Natagama na an saimong repleksyon.",resetConfirm:"Sigurado ka bang i-reset an gabos na progreso asin an natagamang repleksyon?",resetDone:"Na-reset na an listahan asin repleksyon.",selected:"An mga aksyon na natapos mo:",coverageEmpty:"Dai ka pa nakakapili nin kaugnay na aksyon.",coverageText:(n,total)=>`${n} sa ${total} na kaugnay na aksyon an pinili`,footer:"An sadit na mga aksyon, kun pirming gigibuhon, makakagibo nin dakulang pagbabago!",reflectionSaved:"Natagamang repleksyon"
+}
+};
+
+const STORAGE_KEY = "action-plan-progress-" + ACTION_PLAN.id;
+const REFLECTION_KEY = "action-plan-reflection-" + ACTION_PLAN.id;
+let language = "en";
+let completed = new Set();
+let toastTimer;
+const $ = id => document.getElementById(id);
+const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const t = () => TRANSLATIONS[language] || TRANSLATIONS.en;
+
+function localizedAction(action, field) {
+  const translations = action.translations && action.translations[language];
+  return translations && translations[field] ? translations[field] : action[field] || "";
+}
+function loadState(){
+  try{
+    const saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||"[]");
+    completed=new Set(Array.isArray(saved)?saved.filter(i=>Number.isInteger(i)&&i>=0&&i<ACTION_PLAN.actions.length):[]);
+    $("reflectionText").value=localStorage.getItem(REFLECTION_KEY)||"";
+  }catch(e){completed=new Set();}
+}
+function saveState(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify([...completed]));}catch(e){}}
+function notify(message){
+  const el=$("toast");el.textContent=message;el.classList.add("show");
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove("show"),2600);
+}
+function renderActions(){
+  $("actionList").innerHTML=ACTION_PLAN.actions.map((a,i)=>{
+    const done=completed.has(i);
+    return `<article class="action-card ${done?"done":""}" data-index="${i}">
+      <div class="check-wrap"><input class="action-check" type="checkbox" id="action-${i}" data-index="${i}" ${done?"checked":""} aria-label="${escapeHTML(localizedAction(a,"title"))}"></div>
+      <div class="action-content"><div class="action-meta"><span class="number">#${i+1}</span><span class="category">${escapeHTML(localizedAction(a,"category"))}</span></div>
+      <h3><label for="action-${i}">${escapeHTML(localizedAction(a,"title"))}</label></h3>
+      <p>${escapeHTML(localizedAction(a,"description"))}</p>
+      <div class="impact-note">🌍 ${escapeHTML(localizedAction(a,"impact"))}</div></div></article>`;
+  }).join("");
+  $("actionList").querySelectorAll("input[type=checkbox]").forEach(input=>input.addEventListener("change",()=>{
+    const index=Number(input.dataset.index);
+    input.checked?completed.add(index):completed.delete(index);
+    saveState();renderActions();updateDashboard();updateImpact();
+  }));
+}
+function updateDashboard(){
+  const total=ACTION_PLAN.actions.length,done=completed.size,remaining=total-done,pct=total?Math.round(done/total*100):0;
+  $("totalCount").textContent=total;$("completedCount").textContent=done;$("remainingCount").textContent=remaining;$("percentCount").textContent=pct+"%";
+  $("progressCount").textContent=t().count(done,total);$("progressPercent").textContent=pct+"%";
+  $("mainFill").style.width=pct+"%";$("mainProgress").setAttribute("aria-valuenow",pct);
+  $("completionMessage").textContent=total>0&&done===total?t().allDone:done===0?t().keepGoing:t().remainingMsg(remaining);
+}
+function updateImpact(){
+  const selected=[...completed].sort((a,b)=>a-b).map(i=>ACTION_PLAN.actions[i]);
+  const summary=$("impactSummary");
+  if(!selected.length){summary.textContent=t().noActions;$("selectedActions").innerHTML="";}else{
+    const names=selected.map(a=>localizedAction(a,"title"));
+    const benefits=selected.map(a=>localizedAction(a,"impact").replace(/[.!?]$/,""));
+    summary.textContent=`${t().impactStart} ${names.join(", ")}, ${t().impactEnd} ${benefits.join("; ")}.`;
+    $("selectedActions").innerHTML=`<li><strong>${escapeHTML(t().selected)}</strong></li>`+names.map(n=>`<li>${escapeHTML(n)}</li>`).join("");
+  }
+  $("impactCategories").innerHTML=ACTION_PLAN.impactCategories.map(cat=>{
+    const relevant=ACTION_PLAN.actions.map((a,i)=>({a,i})).filter(x=>(x.a.tags||[]).includes(cat.id));
+    const selectedCount=relevant.filter(x=>completed.has(x.i)).length;
+    const pct=relevant.length?Math.round(selectedCount/relevant.length*100):0;
+    return `<div class="impact-card"><h3>${escapeHTML(cat.translations?.[language]?.name||cat.name)}</h3><div class="impact-percent">${pct}%</div><div class="track"><div class="fill" style="width:${pct}%"></div></div><small>${relevant.length?t().coverageText(selectedCount,relevant.length):t().coverageEmpty}</small></div>`;
+  }).join("");
+}
+function renderLearning(){
+  $("learningCards").innerHTML=ACTION_PLAN.learning.map(item=>`<article class="learning-card"><div class="emoji">${escapeHTML(item.icon||"🌱")}</div><h3>${escapeHTML(item.translations?.[language]?.title||item.title)}</h3><p>${escapeHTML(item.translations?.[language]?.text||item.text)}</p></article>`).join("");
+}
+function renderReflection(){
+  const value=localStorage.getItem(REFLECTION_KEY)||"";
+  $("reflectionPreview").textContent=value?`${t().reflectionSaved}: ${value}`:"";
+}
+function applyLanguage(){
+  const d=t();
+  const map={languageLabel:"language",eyebrow:"eyebrow",progressHeading:"progress",progressIntro:"progressIntro",totalLabel:"total",completedLabel:"completed",remainingLabel:"remaining",percentLabel:"completion",checklistHeading:"checklist",checklistIntro:"checklistIntro",selectAll:"selectAll",clearAll:"clearAll",resetBtn:"reset",printBtn:"print",impactHeading:"impact",impactIntro:"impactIntro",coverageHeading:"coverage",coverageNote:"coverageNote",learningHeading:"learning",learningIntro:"learningIntro",reflectionHeading:"reflection",reflectionLabel:"write",saveReflection:"save"};
+  Object.entries(map).forEach(([id,key])=>$(id).textContent=d[key]);
+  $("pageTitle").textContent=ACTION_PLAN.title;$("objective").textContent=ACTION_PLAN.objective;$("closing").textContent=ACTION_PLAN.closing;
+  $("reflectionPrompt").textContent=ACTION_PLAN.reflectionQuestion;$("reflectionText").placeholder=d.placeholder;
+  $("footerMessage").textContent=ACTION_PLAN.closing;
+  renderActions();renderLearning();updateDashboard();updateImpact();renderReflection();
+}
+$("languageSelect").addEventListener("change",e=>{language=e.target.value;applyLanguage();});
+$("selectAll").addEventListener("click",()=>{completed=new Set(ACTION_PLAN.actions.map((_,i)=>i));saveState();renderActions();updateDashboard();updateImpact();});
+$("clearAll").addEventListener("click",()=>{completed.clear();saveState();renderActions();updateDashboard();updateImpact();});
+$("resetBtn").addEventListener("click",()=>{if(confirm(t().resetConfirm)){completed.clear();$("reflectionText").value="";localStorage.removeItem(STORAGE_KEY);localStorage.removeItem(REFLECTION_KEY);renderActions();updateDashboard();updateImpact();renderReflection();notify(t().resetDone);}});
+$("printBtn").addEventListener("click",()=>window.print());
+$("saveReflection").addEventListener("click",()=>{const value=$("reflectionText").value.trim();try{localStorage.setItem(REFLECTION_KEY,value);}catch(e){}renderReflection();notify(t().saved);});
+loadState();applyLanguage();
+</script>
+</body>
+</html>
